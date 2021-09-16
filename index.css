@@ -1,0 +1,34 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Noto Serif', serif;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+body{
+	background-image: url(./images/background.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+
+#navbarSupportedContent > .fab{
+	font-size: 2rem;
+}
+div > a > .fab{
+	font-size: 4.5rem;
+}
+
+#profile > img{
+	height: 25vh;
+	width: 25vh;
+}
+
+#gmap_canvas {
+	height: 60vh;
+	width: 100%;
+}
