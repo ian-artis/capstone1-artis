@@ -7,20 +7,39 @@
 
 html {
 	scroll-behavior: smooth;
+
 }
-body{
-	background-image: url(./images/background.jpg);
+.bg1{
+	
+	background-image: url(./images/bg1.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.bg2 {
+	background-image: url(./images/bg2.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.bg3 {
+	background-image: url(./images/bg3.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.bg4{
+	background-image: url(./images/bg4.png);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
 }
 
-
-#navbarSupportedContent > .fab{
-	font-size: 2rem;
-}
 div > a > .fab{
 	font-size: 4.5rem;
+}
+nav > a > .fas{
+	font-size: 2rem;
 }
 
 #profile > img{
